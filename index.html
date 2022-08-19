@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>The encryptor</title>
+</head>
+<body>
+    <h1>The encryptor</h1>
+    <!-- <div><button onclick="clearText()">Limpar</button></div> -->
+    <section class="textAreaContainer">
+        <div class="textarea">
+            <textarea class="text-enc" rows="8" cols="32" required autofocus placeholder="Criptografe seu texto" minlength="4" maxlength="140"></textarea>
+        </div>
+        <div class="textarea">
+            <textarea class="text-desc" rows="8" cols="32" autocapitalize="none" placeholder="Texto criptografado" readonly></textarea>
+        </div>
+    </section>
+
+    <div class="buttons">
+        <div class="button-enc">
+            <button onclick="encriptarTexto()">Codificar</button>
+        </div>
+        <div class="button-desc">
+            <button onclick="descriptBtn()">Decodificar</button>
+        </div>
+    </div>
+    <footer>
+        <a href="http://www.instagram.com" target="_blank"><img src="/assets/imgs/instagram-icon.svg"></a>
+        <a href="http://www.twitter.com" target="_blank"><img src="/assets/imgs/twitter-icon.svg"></a>
+        <a href="https://www.linkedin.com/in/guilhermemedici/" target="_blank"><img src="/assets/imgs/linkedin-icon.svg"></a>
+        <a href="mailto:mailguigs@gmail.com"><img src="/assets/imgs/email-icon.svg"></a>
+    </footer>
+    <script type="text/javascript" src="/index.js"></script>
+</body>
+</html>
